@@ -1,0 +1,247 @@
+/*
+Theme Name: Betheme
+Theme URI: https://themes.muffingroup.com/betheme/
+Author: Muffin group
+Author URI: https://muffingroup.com/
+Description: The biggest WordPress Theme ever
+License: Themeforest Split Licence
+License URI: https://themeforest.net/licenses/standard
+Text Domain: betheme
+Requires PHP: 7.0
+Version: 27.0.8
+
+All css files are placed in /css/ folder
+*/
+#Subheader ul.breadcrumbs {width:100%; float:left; text-align:left;}
+.baivietdinhduong li:nth-child(1) img{min-height:440px;}
+.sanphamhome .mfn-woo-product-title{ overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 25px;
+    -webkit-line-clamp: 2;
+    height: 52px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;}
+.sanphamhome .desc {border-bottom: solid 3px #d6d6d6;}
+.sanphamhome li:hover .desc{border-bottom: solid 3px red;}
+.woocommerce-product-details__short-description {padding-top:20px;}
+.woocommerce-product-details__short-description a:first-child { font-size:18px;  border-radius:10px; background:red; color:white; padding-top: 10px; padding-bottom: 10px; padding-left:20px; padding-right: 20px; font-weight: 600;}
+
+#menu {margin-left:-100px;}
+.copyright a, .mcb-column-inner form{display:none!important;}
+.elementor-element-f4e01f9 li{margin-bottom:8px; font-weight:600;}
+.elementor-element-f4e01f9 li:before{content:"*"}
+.elementor-element-f4e01f9 h5{font-size:20px; border-left:solid 20px red; padding-left:30px;}
+/*** nút gọi***********/
+.fone {
+font-size: 18px; /* chữ cạnh nút gọi */
+color: #f00;
+line-height: 40px;
+font-weight: bold;
+padding-left: 48px; /* cách bên trái cho chữ */
+margin: 0 0;
+	min-width:350px;
+}
+.fix_tel {display:none;
+	position:fixed; bottom:95px; left:20px; z-index:999;} /*cách bên trái 20px sang phải thay right */
+.fix_tel a {text-decoration: none; display:block;}
+.tel { background: #eee;width:250px; height:40px; position:relative; overflow:hidden;background-size:40px;border-radius:28px;border:none}
+.ring-alo-phone {
+background-color: transparent;
+cursor: pointer;
+height: 80px;
+position: absolute;
+transition: visibility 0.5s ease 0s;
+visibility: hidden;
+width: 80px;
+z-index: 200000 !important;
+}
+.ring-alo-phone.ring-alo-show {
+visibility: visible;
+}
+.ring-alo-phone.ring-alo-hover, .ring-alo-phone:hover {
+opacity: 1;
+}
+.ring-alo-ph-circle {
+animation: 1.2s ease-in-out 0s normal none infinite running ring-alo-circle-anim;
+background-color: transparent;
+border: 2px solid rgba(30, 30, 30, 0.4);
+border-radius: 100%;
+height: 70px;
+left: -30px;
+opacity: 0.1;
+position: absolute;
+top: 12px;
+transform-origin: 50% 50% 0;
+transition: all 0.5s ease 0s;
+width: 70px;
+}
+.ring-alo-phone.ring-alo-active .ring-alo-ph-circle {
+animation: 1.1s ease-in-out 0s normal none infinite running ring-alo-circle-anim !important;
+}
+.ring-alo-phone.ring-alo-static .ring-alo-ph-circle {
+animation: 2.2s ease-in-out 0s normal none infinite running ring-alo-circle-anim !important;
+}
+.ring-alo-phone.ring-alo-hover .ring-alo-ph-circle, .ring-alo-phone:hover .ring-alo-ph-circle {
+border-color: #009900;
+opacity: 0.5;
+}
+.ring-alo-phone.ring-alo-green.ring-alo-hover .ring-alo-ph-circle, .ring-alo-phone.ring-alo-green:hover .ring-alo-ph-circle {
+border-color: #baf5a7;
+opacity: 0.5;
+}
+.ring-alo-phone.ring-alo-green .ring-alo-ph-circle {
+border-color: #009900;
+opacity: 0.5;
+}
+.ring-alo-ph-circle-fill {
+animation: 2.3s ease-in-out 0s normal none infinite running ring-alo-circle-fill-anim;
+background-color: #000;
+border: 2px solid transparent;
+border-radius: 100%;
+height: 30px;
+left: -10px;
+opacity: 0.1;
+position: absolute;
+top: 33px;
+transform-origin: 50% 50% 0;
+transition: all 0.5s ease 0s;
+width: 30px;
+}
+.ring-alo-phone.ring-alo-hover .ring-alo-ph-circle-fill, .ring-alo-phone:hover .ring-alo-ph-circle-fill {
+background-color: rgba(0, 175, 242, 0.5);
+opacity: 0.75 !important;
+}
+.ring-alo-phone.ring-alo-green.ring-alo-hover .ring-alo-ph-circle-fill, .ring-alo-phone.ring-alo-green:hover .ring-alo-ph-circle-fill {
+background-color: rgba(117, 235, 80, 0.5);
+opacity: 0.75 !important;
+}
+.ring-alo-phone.ring-alo-green .ring-alo-ph-circle-fill {
+background-color: rgba(0, 175, 242, 0.5);
+opacity: 0.75 !important;
+}
+
+ 
+
+.ring-alo-ph-img-circle {
+animation: 1s ease-in-out 0s normal none infinite running ring-alo-circle-img-anim;
+border: 2px solid transparent;
+border-radius: 100%;
+height: 30px;
+left: -10px; 
+opacity: 1;
+position: absolute;
+top: 33px;
+transform-origin: 50% 50% 0;
+width: 30px;
+}
+
+.ring-alo-phone.ring-alo-hover .ring-alo-ph-img-circle, .ring-alo-phone:hover .ring-alo-ph-img-circle {
+background-color: #009900;
+}
+.ring-alo-phone.ring-alo-green.ring-alo-hover .ring-alo-ph-img-circle, .ring-alo-phone.ring-alo-green:hover .ring-alo-ph-img-circle {
+background-color: #75eb50;
+}
+.ring-alo-phone.ring-alo-green .ring-alo-ph-img-circle {
+background-color: #009900;
+}
+@keyframes ring-alo-circle-anim {
+0% {
+opacity: 0.1;
+transform: rotate(0deg) scale(0.5) skew(1deg);
+}
+30% {
+opacity: 0.5;
+transform: rotate(0deg) scale(0.7) skew(1deg);
+}
+100% {
+opacity: 0.6;
+transform: rotate(0deg) scale(1) skew(1deg);
+}
+}
+
+ 
+
+@keyframes ring-alo-circle-img-anim {
+0% {
+transform: rotate(0deg) scale(1) skew(1deg);
+}
+10% {
+transform: rotate(-25deg) scale(1) skew(1deg);
+}
+20% {
+transform: rotate(25deg) scale(1) skew(1deg);
+}
+30% {
+transform: rotate(-25deg) scale(1) skew(1deg);
+}
+40% {
+transform: rotate(25deg) scale(1) skew(1deg);
+}
+50% {
+transform: rotate(0deg) scale(1) skew(1deg);
+}
+100% {
+transform: rotate(0deg) scale(1) skew(1deg);
+}
+}
+@keyframes ring-alo-circle-fill-anim {
+0% {
+opacity: 0.2;
+transform: rotate(0deg) scale(0.7) skew(1deg);
+}
+50% {
+opacity: 0.2;
+transform: rotate(0deg) scale(1) skew(1deg);
+}
+100% {
+opacity: 0.2;
+transform: rotate(0deg) scale(0.7) skew(1deg);
+}
+}
+.ring-alo-ph-img-circle a img {
+padding: 1px 0 12px 1px;
+width: 30px;
+position: relative;
+top: -1px;
+}
+.muaweb{margin-left:60px;color:red; width:90px;
+padding-top:10px!important;}
+.area_order {
+    display: block;
+    overflow: hidden;
+    margin: 10px;
+    position: relative;
+}
+
+.bottom-contact{display:none;}
+.fcta-zalo-vi-tri-nut{margin-right:92%;;}
+/*** hết nút gọi ***/
+
+@media only screen and (max-width: 600px) {
+	.fcta-zalo-vi-tri-nut, .fix_tel{display:none;}
+	
+/****** nút gọi điện dạng hàng****/
+.bottom-contact{display: block;
+    position: fixed;
+    bottom: 0;
+    background: white;
+    width: 100%;
+    z-index: 99;
+    box-shadow: 2px 1px 9px #dedede;
+    border-top: 1px solid #eaeaea;}
+.bottom-contact ul li{width: 25%;
+    float: left;
+    list-style: none;
+    text-align: center; font-size:13.5px;}
+.bottom-contact ul li span{color:black}
+.bottom-contact ul li img{    width: 35px;
+    margin-top: 10px;
+    margin-bottom: 0px;}
+	/*************/
+	#goidien img{animation: 1s ease-in-out 0s normal none infinite running ring-alo-circle-img-anim;}
+	.one-half, .onethird, .onequard {
+        width: 100%;
+        margin-right: 0;
+    }
+}
+

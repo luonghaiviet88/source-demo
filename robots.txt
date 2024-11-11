@@ -1,0 +1,7 @@
+# Group 1
+User-agent: *
+Disallow: /wp-admin/
+Disallow: /wp-includes/plugins/
+Disallow: /wp-includes/themes/
+Disallow: /wp-content/plugins/
+Disallow: /wp-content/themes/

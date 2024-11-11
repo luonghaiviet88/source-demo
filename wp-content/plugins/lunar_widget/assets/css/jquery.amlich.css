@@ -1,0 +1,219 @@
+.widget {
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid var(--border-color);
+    border-radius: 3px;
+    overflow: hidden;
+    margin-bottom: 12px;
+}
+.align-items-center {
+    -ms-flex-align: center !important;
+    align-items: center !important;
+}
+.justify-content-between {
+    -ms-flex-pack: justify !important;
+    justify-content: space-between !important;
+}
+.d-flex {
+    display: -ms-flexbox !important;
+    display: flex !important;
+}
+.cursor-pointer {
+    cursor: pointer;
+}
+.p-2 {
+    padding: .5rem !important;
+}
+.h-100 {
+    height: 100% !important;
+}
+.align-items-center {
+    -ms-flex-align: center !important;
+    align-items: center !important;
+}
+.text-center {
+    text-align: center !important;
+}
+.align-items-center {
+    -ms-flex-align: center !important;
+    align-items: center !important;
+}
+.justify-content-center {
+    -ms-flex-pack: center !important;
+    justify-content: center !important;
+}
+.d-flex {
+    display: -ms-flexbox !important;
+    display: flex !important;
+}
+.widget-calendar-circle {
+    width: 150px;
+    height: 150px;
+    margin-top: 10px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+.left-widget-calendar-corner {
+    position: absolute;
+    width: 28px;
+    height: 194px;
+    left: 3px;
+    align-self: center;
+}
+.right-widget-calendar-corner {
+    position: absolute;
+    width: 28px;
+    height: 194px;
+    right: 3px;
+    align-self: center;
+    transform: rotate(180deg);
+}
+.widget-calendar-month {
+    position: absolute;
+    top: 46px;
+    color: #fff;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.mb-0, .my-0 {
+    margin-bottom: 0 !important;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.widget-calendar-date {
+    position: absolute;
+    color: #fff;
+    font-size: 64px;
+    top: 50px;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+.txt-title-bold {
+    font-weight: 700;
+}
+
+.widget-calendar {
+    background-image: url(images/widget_calendar_background.png);
+    width: 100%;
+    height: 200px;
+    background-size: 300px 200px;
+    position: relative;
+    display: flex;
+    justify-content: center
+}
+
+.widget-calendar-circle {
+    width: 150px;
+    height: 150px;
+    margin-top: 10px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto
+}
+
+.left-widget-calendar-corner {
+    position: absolute;
+    width: 28px;
+    height: 194px;
+    left: 3px;
+    align-self: center
+}
+
+.right-widget-calendar-corner {
+    position: absolute;
+    width: 28px;
+    height: 194px;
+    right: 3px;
+    align-self: center;
+    transform: rotate(180deg)
+}
+
+.widget-calendar-text {
+    position: absolute;
+    bottom: 10px;
+    margin-bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center
+}
+
+.widget-calendar-month {
+    position: absolute;
+    top: 46px;
+    color: #fff;
+    left: 0;
+    right: 0;
+    text-align: center
+}
+
+
+.view-column-left {
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
+    margin-bottom: 10px
+}
+.widget-calendar-text {
+    position: absolute;
+    bottom: 10px;
+    margin-bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+.txt-sub-content {
+    font-size: .875rem;
+    font-weight: 400;
+}
+.txt-sub-content-bold {
+    font-size: .875rem;
+    font-weight: 700;
+}
+.p-b-15 {
+    padding-bottom: 15px;
+}
+.p-t-10 {
+    padding-top: 10px;
+}
+.p-r-10 {
+    padding-right: 10px;
+}
+.p-l-10 {
+    padding-left: 10px;
+}
+.m-b-15 {
+    margin-bottom: 15px;
+}
+.justify-content-center {
+    -ms-flex-pack: center !important;
+    justify-content: center !important;
+}
+.d-flex {
+    display: -ms-flexbox !important;
+    display: flex !important;
+}
+.read-more {
+    display: block;
+    padding: 3px 24px;
+    border-radius: 40px;
+    border: 1px solid #d5d9df;
+    color: #3b3a3a;
+}
+.amlich {
+display: none;
+}

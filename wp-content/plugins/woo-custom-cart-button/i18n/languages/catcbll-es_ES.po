@@ -1,0 +1,783 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Custom Add to Cart Button Label and Link 1.2.1\n"
+"POT-Creation-Date: 2022-02-08 16:46+0530\n"
+"PO-Revision-Date: 2022-02-08 16:51+0530\n"
+"Last-Translator: \n"
+"Language-Team: hwxteam\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: catcbll.php:200
+msgid "Poor"
+msgstr "Pobre"
+
+#: catcbll.php:200
+msgid "Works"
+msgstr "Obras"
+
+#: catcbll.php:200
+msgid "Good"
+msgstr "Buena"
+
+#: catcbll.php:200
+msgid "Great"
+msgstr "Estupenda"
+
+#: catcbll.php:200
+msgid "Fantastic!"
+msgstr "¡Fantástica!"
+
+#: catcbll.php:214 catcbll.php:215
+msgid "Live Demo"
+msgstr "Demo en vivo"
+
+#: catcbll.php:215
+msgid "Pro Demo"
+msgstr "Demostración profesional"
+
+#: catcbll.php:234
+msgid "Settings"
+msgstr "Ajustes"
+
+#: catcbll.php:312
+msgid "Clear"
+msgstr "Clara"
+
+#: catcbll.php:313
+msgid "Clear color"
+msgstr "Color claro"
+
+#: catcbll.php:314
+msgid "Default"
+msgstr "Defecto"
+
+#: catcbll.php:315
+msgid "Select default color"
+msgstr "Seleccionar color predeterminado"
+
+#: catcbll.php:316
+msgid "Select Color"
+msgstr "Seleccionar el color"
+
+#: catcbll.php:317
+msgid "Color value"
+msgstr "Valor de color"
+
+#: helpers/helpers.php:10
+msgid "Please install and activate WooCommerce plugin first."
+msgstr "Instale y active primero el complemento WooCommerce."
+
+#: helpers/helpers.php:14
+#, php-format
+msgid ""
+"Please update your WooCommerce plugin. It's outdated. %s or latest required"
+msgstr ""
+"Actualice su complemento de WooCommerce. Está desactualizado. %s o más "
+"reciente requerido"
+
+#: helpers/helpers.php:25
+msgid "Go back"
+msgstr "Regresa"
+
+#: include/admin/wcatcbll_general_settings.php:14
+#: include/admin/wcatcbll_general_settings.php:18
+#: include/admin/wcatcbll_setting_modal_popup.php:63
+msgid "Add To Cart"
+msgstr "Añadir al carrito"
+
+#: include/admin/wcatcbll_general_settings.php:29
+msgid "Cart Button's Settings"
+msgstr "Configuración del botón de carrito"
+
+#: include/admin/wcatcbll_general_settings.php:35
+msgid "Both"
+msgstr "Ambas"
+
+#: include/admin/wcatcbll_general_settings.php:49
+msgid "Default Add To Cart Per Product"
+msgstr "Agregar predeterminado al carrito por producto"
+
+#: include/admin/wcatcbll_general_settings.php:64
+msgid "Custom Button Per Product"
+msgstr "Botón personalizado por producto"
+
+#: include/admin/wcatcbll_general_settings.php:79
+#: include/admin/wcatcbll_general_settings.php:83
+msgid "Custom Button Position"
+msgstr "Posición del botón personalizado"
+
+#: include/admin/wcatcbll_general_settings.php:89
+msgid "Up"
+msgstr "Arriba"
+
+#: include/admin/wcatcbll_general_settings.php:92
+msgid "Down"
+msgstr "Abajo"
+
+#: include/admin/wcatcbll_general_settings.php:95
+#: include/admin/wcatcbll_general_settings.php:117
+#: include/admin/wcatcbll_general_settings.php:370
+#: include/admin/wcatcbll_general_settings.php:398
+msgid "Left"
+msgstr "Izquierdo"
+
+#: include/admin/wcatcbll_general_settings.php:98
+#: include/admin/wcatcbll_general_settings.php:120
+#: include/admin/wcatcbll_general_settings.php:360
+#: include/admin/wcatcbll_general_settings.php:401
+msgid "Right"
+msgstr "Derecha"
+
+#: include/admin/wcatcbll_general_settings.php:107
+#: include/admin/wcatcbll_general_settings.php:111
+msgid "Custom Button Alignment"
+msgstr "Alineación de botones personalizada"
+
+#: include/admin/wcatcbll_general_settings.php:123
+msgid "Center"
+msgstr "Centrar"
+
+#: include/admin/wcatcbll_general_settings.php:135
+msgid "Custom Button Display"
+msgstr "Visualización de botones personalizados"
+
+#: include/admin/wcatcbll_general_settings.php:142
+msgid "Global"
+msgstr "Global"
+
+#: include/admin/wcatcbll_general_settings.php:155
+msgid "Shop"
+msgstr "Tienda"
+
+#: include/admin/wcatcbll_general_settings.php:170
+msgid "Single Product"
+msgstr "Producto único"
+
+#: include/admin/wcatcbll_general_settings.php:185
+msgid "Open Link In New Tab"
+msgstr "Abrir enlace en una nueva pestaña"
+
+#: include/admin/wcatcbll_general_settings.php:189
+#: include/wcatcbll_inscrpt.php:51
+msgid "If Checkbox Is Check Then Button Link Open In New Tab"
+msgstr ""
+"Si la casilla de verificación está marcada, el enlace del botón se abre en "
+"una pestaña nueva"
+
+#: include/admin/wcatcbll_general_settings.php:207
+#: include/wcatcbll_metabox.php:89
+msgid "Distinct Information Per Product"
+msgstr "Información distinta por producto"
+
+#: include/admin/wcatcbll_general_settings.php:209
+msgid "Watch Now"
+msgstr "Ver ahora"
+
+#: include/admin/wcatcbll_general_settings.php:220
+msgid "Custom Button Style"
+msgstr "Estilo de botón personalizado"
+
+#: include/admin/wcatcbll_general_settings.php:227
+msgid "Text Font Size"
+msgstr "Tamaño de fuente de texto"
+
+#: include/admin/wcatcbll_general_settings.php:242
+msgid "Border Size"
+msgstr "Tamaño de borde"
+
+#: include/admin/wcatcbll_general_settings.php:257
+msgid "Border Radius"
+msgstr "Radio de borde"
+
+#: include/admin/wcatcbll_general_settings.php:272
+msgid "Button Background"
+msgstr "Fondo de botón"
+
+#: include/admin/wcatcbll_general_settings.php:283
+msgid "Text Font Color"
+msgstr "Color de fuente de texto"
+
+#: include/admin/wcatcbll_general_settings.php:294
+msgid "Border Color"
+msgstr "Color del borde"
+
+#: include/admin/wcatcbll_general_settings.php:305
+msgid "Hover Color"
+msgstr "Color de libración"
+
+#: include/admin/wcatcbll_general_settings.php:316
+#: include/admin/wcatcbll_general_settings.php:320
+msgid "Button Padding"
+msgstr "Relleno de botones"
+
+#: include/admin/wcatcbll_general_settings.php:328
+msgid "Vertically"
+msgstr "Verticalmente"
+
+#: include/admin/wcatcbll_general_settings.php:335
+msgid "Horizontally"
+msgstr "Horizontalmente"
+
+#: include/admin/wcatcbll_general_settings.php:345
+#: include/admin/wcatcbll_general_settings.php:349
+msgid "Button Margin"
+msgstr "Margen de botón"
+
+#: include/admin/wcatcbll_general_settings.php:355
+msgid "Top"
+msgstr "Cima"
+
+#: include/admin/wcatcbll_general_settings.php:365
+msgid "Bottom"
+msgstr "Fondo"
+
+#: include/admin/wcatcbll_general_settings.php:380
+msgid "Button Icon"
+msgstr "Icono de botón"
+
+#: include/admin/wcatcbll_general_settings.php:394
+msgid "Button Icon Position"
+msgstr "Posición del icono del botón"
+
+#: include/admin/wcatcbll_general_settings.php:410
+msgid "2D Transitions"
+msgstr "Transiciones 2D"
+
+#: include/admin/wcatcbll_general_settings.php:413
+msgid "2D Transitions Hover On Add To Cart Button"
+msgstr "Las transiciones 2D pasan por encima del botón Agregar al carrito"
+
+#: include/admin/wcatcbll_general_settings.php:428
+msgid "Background Transitions"
+msgstr "Transiciones de fondo"
+
+#: include/admin/wcatcbll_general_settings.php:431
+msgid "Add To Cart Button Background Transitions On hover"
+msgstr "Agregar al carrito Transiciones de fondo del botón al pasar el mouse"
+
+#: include/admin/wcatcbll_general_settings.php:452
+msgid "Save Changes"
+msgstr "Save Changes"
+
+#: include/admin/wcatcbll_general_settings.php:454
+#: include/admin/wcatcbll_setting_modal_popup.php:6
+msgid "Shortcode"
+msgstr "Código corto"
+
+#: include/admin/wcatcbll_general_settings.php:457
+msgid "Click Here To See Button Design"
+msgstr "Haga clic aquí para ver el diseño del botón"
+
+#: include/admin/wcatcbll_general_settings.php:474
+msgid "Custom Add to Cart Button Label and Link - Pro"
+msgstr "Enlace y etiqueta de botón Agregar al carrito personalizado - Pro"
+
+#: include/admin/wcatcbll_general_settings.php:476
+msgid "Pro Version Features"
+msgstr "Características de la versión Pro"
+
+#: include/admin/wcatcbll_general_settings.php:479
+msgid "Layout"
+msgstr "Disposición"
+
+#: include/admin/wcatcbll_general_settings.php:481
+msgid "Unique ID and a Class option for each product’s custom button"
+msgstr ""
+"Identificación única y una opción de clase para el botón personalizado de "
+"cada producto"
+
+#: include/admin/wcatcbll_general_settings.php:482
+msgid "Different Google fonts with API"
+msgstr "Diferentes fuentes de Google con API"
+
+#: include/admin/wcatcbll_general_settings.php:483
+msgid "Option for setting custom Button’s font-weight, font-size, font-case"
+msgstr ""
+"Opción para configurar el peso de fuente, tamaño de fuente, mayúsculas y "
+"minúsculas del botón personalizado"
+
+#: include/admin/wcatcbll_general_settings.php:484
+msgid ""
+"Separate margins, padding, and alignment options for shop and single product "
+"pages"
+msgstr ""
+"Márgenes separados, relleno y opciones de alineación para tiendas y páginas "
+"de productos individuales"
+
+#: include/admin/wcatcbll_general_settings.php:485
+msgid "Border radius for all corners"
+msgstr "Radio de borde para todas las esquinas"
+
+#: include/admin/wcatcbll_general_settings.php:489
+msgid "Styling"
+msgstr "Estilismo"
+
+#: include/admin/wcatcbll_general_settings.php:491
+msgid "Icon select with icon picker"
+msgstr "Selección de iconos con selector de iconos"
+
+#: include/admin/wcatcbll_general_settings.php:492
+msgid "Change icon size"
+msgstr "Cambiar el tamaño del icono"
+
+#: include/admin/wcatcbll_general_settings.php:493
+msgid "Change icon Position"
+msgstr "Cambiar icono Posición"
+
+#: include/admin/wcatcbll_general_settings.php:494
+msgid "Icon spacing / Spinner"
+msgstr "Espaciado de iconos / Spinner"
+
+#: include/admin/wcatcbll_general_settings.php:498
+msgid "Advance Settings"
+msgstr "Configuraciones avanzadas"
+
+#: include/admin/wcatcbll_general_settings.php:500
+msgid "All custom button Same Size"
+msgstr "Todos los botones personalizados del mismo tamaño"
+
+#: include/admin/wcatcbll_general_settings.php:501
+msgid "Default woocommerce button styling"
+msgstr "Estilo predeterminado del botón de WooCommerce"
+
+#: include/admin/wcatcbll_general_settings.php:505
+msgid "Category Based Custom Buttons"
+msgstr "Botones personalizados basados ​​en categorías"
+
+#: include/admin/wcatcbll_general_settings.php:508
+msgid ""
+"Sold Out Buttons / Out of Stock Buttons which appear automatically when "
+"Product is out of Stock."
+msgstr ""
+"Botones agotados / Botones agotados que aparecen automáticamente cuando el "
+"producto está agotado."
+
+#: include/admin/wcatcbll_general_settings.php:511
+msgid "Per Button Style"
+msgstr "Por estilo de botón"
+
+#: include/admin/wcatcbll_general_settings.php:514
+msgid "Global ( Label / URL )"
+msgstr "Global (Etiqueta/URL)"
+
+#: include/admin/wcatcbll_general_settings.php:517
+msgid "Shortcode generater"
+msgstr "Generador de código corto"
+
+#: include/admin/wcatcbll_general_settings.php:520
+msgid "Per category"
+msgstr "Por categoría"
+
+#: include/admin/wcatcbll_general_settings.php:523
+msgid "Out of stock"
+msgstr "Agotado"
+
+#: include/admin/wcatcbll_general_settings.php:526
+msgid "Plugin Premium support"
+msgstr "Complemento de soporte Premium"
+
+#: include/admin/wcatcbll_general_settings.php:529
+msgid "Import 1.5.4 button styling"
+msgstr "Importar estilo de botón 1.5.4"
+
+#: include/admin/wcatcbll_general_settings.php:532
+msgid "Compatible with all product types."
+msgstr "Compatible con todo tipo de productos."
+
+#: include/admin/wcatcbll_general_settings.php:535
+msgid "Compatible with lambda, Avada, Astra, Divi, The7, etc."
+msgstr "Compatible con lambda, Avada, Astra, Divi, The7, etc."
+
+#: include/admin/wcatcbll_general_settings.php:541
+msgid "Read More"
+msgstr "Lee mas"
+
+#: include/admin/wcatcbll_general_settings.php:543
+msgid "Buy Now"
+msgstr "Compra ahora"
+
+#: include/admin/wcatcbll_general_settings.php:549
+msgid "Related Plugins"
+msgstr "Complementos relacionados"
+
+#: include/admin/wcatcbll_general_settings.php:554
+msgid "Awesome Checkout Templates"
+msgstr "Impresionantes plantillas de pago"
+
+#: include/admin/wcatcbll_general_settings.php:561
+msgid "Show State Field for WooCommerce"
+msgstr "Mostrar campo de estado para WooCommerce"
+
+#: include/admin/wcatcbll_general_settings.php:564
+msgid "Other Plugins"
+msgstr "Otros complementos"
+
+#: include/admin/wcatcbll_general_settings.php:568
+msgid "Passwords Manager"
+msgstr "Administrador de contraseñas"
+
+#: include/admin/wcatcbll_general_settings.php:574
+msgid "Text Case Converter"
+msgstr "Convertidor de mayúsculas y minúsculas"
+
+#: include/admin/wcatcbll_general_settings.php:581
+msgid "Horizontal Slider with Scroll"
+msgstr "Control deslizante horizontal con desplazamiento"
+
+#: include/admin/wcatcbll_general_settings.php:588
+msgid "Digital Warranty Card Generator"
+msgstr "Generador de tarjeta de garantía digital"
+
+#: include/admin/wcatcbll_general_settings.php:595
+msgid "Country and State Selection Addon for Gravity Form"
+msgstr "Complemento de selección de país y estado para formulario de gravedad"
+
+#: include/admin/wcatcbll_setting_modal_popup.php:15
+msgid "Any Where You Can Show Product Using This Shortcode"
+msgstr ""
+"En cualquier lugar donde pueda mostrar el producto usando este código corto"
+
+#: include/admin/wcatcbll_setting_modal_popup.php:33
+msgid "Close"
+msgstr "Cerca"
+
+#: include/admin/wcatcbll_setting_modal_popup.php:46
+msgid "Demo"
+msgstr "Manifestación"
+
+#: include/admin/wcatcbll_setting_modal_popup.php:75
+msgid "OK"
+msgstr "OK"
+
+#: include/admin/wcatcbll_setting_modal_popup.php:76
+msgid "Clear Selection"
+msgstr "Selección clara"
+
+#: include/functions.php:9
+msgid "CATCBNL"
+msgstr "CATCBNL"
+
+#: include/functions.php:9 include/wcatcbll_widget.php:18
+msgid "Custom Cart Button"
+msgstr "Botón de carro personalizado"
+
+#: include/wcatcbll_btn_2dhvr.php:2 include/wcatcbll_btn_2dhvr.php:5
+msgid "None"
+msgstr "Ninguna"
+
+#: include/wcatcbll_btn_2dhvr.php:2
+msgid "Grow"
+msgstr "Crecer"
+
+#: include/wcatcbll_btn_2dhvr.php:2
+msgid "Shrink"
+msgstr "Encogerse"
+
+#: include/wcatcbll_btn_2dhvr.php:2
+msgid "Pulse"
+msgstr "Legumbres"
+
+#: include/wcatcbll_btn_2dhvr.php:2
+msgid "Pulse Grow"
+msgstr "Crecimiento de pulso"
+
+#: include/wcatcbll_btn_2dhvr.php:2
+msgid "Pulse Shrink"
+msgstr "Reducción de pulso"
+
+#: include/wcatcbll_btn_2dhvr.php:2
+msgid "Push"
+msgstr "Empujar"
+
+#: include/wcatcbll_btn_2dhvr.php:2
+msgid "Pop"
+msgstr "Música pop"
+
+#: include/wcatcbll_btn_2dhvr.php:2
+msgid "Bounce In"
+msgstr "Rebotar"
+
+#: include/wcatcbll_btn_2dhvr.php:2
+msgid "Bounce Out"
+msgstr "Rebotar fuera"
+
+#: include/wcatcbll_btn_2dhvr.php:2
+msgid "Rotate"
+msgstr "Girar"
+
+#: include/wcatcbll_btn_2dhvr.php:2
+msgid "Grow Rotate"
+msgstr "Crecer Rotar"
+
+#: include/wcatcbll_btn_2dhvr.php:2
+msgid "Float"
+msgstr "Flotadora"
+
+#: include/wcatcbll_btn_2dhvr.php:2
+msgid "Sink"
+msgstr "Hundir"
+
+#: include/wcatcbll_btn_2dhvr.php:2
+msgid "Bob"
+msgstr "Beto"
+
+#: include/wcatcbll_btn_2dhvr.php:2
+msgid "Hang"
+msgstr "Colgar"
+
+#: include/wcatcbll_btn_2dhvr.php:2
+msgid "Skew"
+msgstr "Sesgar"
+
+#: include/wcatcbll_btn_2dhvr.php:2
+msgid "Skew Forward"
+msgstr "Inclinar hacia adelante"
+
+#: include/wcatcbll_btn_2dhvr.php:2
+msgid "Skew Backward"
+msgstr "Inclinarse hacia atrás"
+
+#: include/wcatcbll_btn_2dhvr.php:2
+msgid "Wobble"
+msgstr "Tambalearse"
+
+#: include/wcatcbll_btn_2dhvr.php:2
+msgid "Wobble Vertical"
+msgstr "Bamboleo vertical"
+
+#: include/wcatcbll_btn_2dhvr.php:2
+msgid "Wobble To"
+msgstr "Bamboleo a"
+
+#: include/wcatcbll_btn_2dhvr.php:2
+msgid "Wobble To Top"
+msgstr "Bamboleo hacia arriba"
+
+#: include/wcatcbll_btn_2dhvr.php:2
+msgid "Wobble Top"
+msgstr "Parte superior oscilante"
+
+#: include/wcatcbll_btn_2dhvr.php:2
+msgid "Wobble Bottom"
+msgstr "Fondo tambaleante"
+
+#: include/wcatcbll_btn_2dhvr.php:2
+msgid "Wobble Skew"
+msgstr "Inclinación sesgada"
+
+#: include/wcatcbll_btn_2dhvr.php:2
+msgid "Buzz"
+msgstr "Zumbido"
+
+#: include/wcatcbll_btn_2dhvr.php:2
+msgid "Buzz Out"
+msgstr "Zumbido FUERA"
+
+#: include/wcatcbll_btn_2dhvr.php:2
+msgid "Forward"
+msgstr "Hacia adelante"
+
+#: include/wcatcbll_btn_2dhvr.php:2
+msgid "Backward"
+msgstr "Hacia atrás"
+
+#: include/wcatcbll_btn_2dhvr.php:5
+msgid "Back Pulse"
+msgstr "Pulso de espalda"
+
+#: include/wcatcbll_btn_2dhvr.php:5
+msgid "Sweep To Right"
+msgstr "Barrido a la derecha"
+
+#: include/wcatcbll_btn_2dhvr.php:5
+msgid "Sweep To Left"
+msgstr "Barrido hacia la izquierda"
+
+#: include/wcatcbll_btn_2dhvr.php:5
+msgid "Sweep To Bottom"
+msgstr "Barrido hacia abajo"
+
+#: include/wcatcbll_btn_2dhvr.php:5
+msgid "Sweep To Top"
+msgstr "Barrido hacia arriba"
+
+#: include/wcatcbll_btn_2dhvr.php:5
+msgid "Bounce To Right"
+msgstr "Rebote a la derecha"
+
+#: include/wcatcbll_btn_2dhvr.php:5
+msgid "Bounce To Left"
+msgstr "Rebotar a la izquierda"
+
+#: include/wcatcbll_btn_2dhvr.php:5
+msgid "Bounce To Bottom"
+msgstr "Rebotar al fondo"
+
+#: include/wcatcbll_btn_2dhvr.php:5
+msgid "Bounce To Top"
+msgstr "Rebotar hacia arriba"
+
+#: include/wcatcbll_btn_2dhvr.php:5
+msgid "Radial Out"
+msgstr "Radial hacia fuera"
+
+#: include/wcatcbll_btn_2dhvr.php:5
+msgid "Rectangle Out"
+msgstr "Rectángulo hacia fuera"
+
+#: include/wcatcbll_btn_2dhvr.php:5
+msgid "Shutter Out Horizontal"
+msgstr "Obturador horizontal"
+
+#: include/wcatcbll_btn_2dhvr.php:5
+msgid "Shutter Out Vertical"
+msgstr "Obturador vertical"
+
+#: include/wcatcbll_inscrpt.php:29
+msgid "There Are No Exporting Data In Your Selection Fields"
+msgstr "No hay datos de exportación en sus campos de selección"
+
+#: include/wcatcbll_inscrpt.php:45 include/wcatcbll_metabox.php:53
+#: include/wcatcbll_metabox.php:74
+msgid "Label"
+msgstr "Etiqueta"
+
+#: include/wcatcbll_inscrpt.php:46 include/wcatcbll_metabox.php:57
+#: include/wcatcbll_metabox.php:78
+msgid "URL"
+msgstr "URL"
+
+#: include/wcatcbll_inscrpt.php:47 include/wcatcbll_metabox.php:55
+#: include/wcatcbll_metabox.php:76
+msgid "Add To Basket Or Shop Now Or Shop On Amazon"
+msgstr "Agregar al carrito o comprar ahora o comprar en Amazon"
+
+#: include/wcatcbll_inscrpt.php:48 include/wcatcbll_metabox.php:55
+#: include/wcatcbll_metabox.php:76
+msgid "This Text Will Be Shown On The Button Linking To The External Product"
+msgstr "Este texto se mostrará en el botón que vincula al producto externo"
+
+#: include/wcatcbll_inscrpt.php:49 include/wcatcbll_metabox.php:58
+#: include/wcatcbll_metabox.php:80
+msgid "Enter The External URL To The Product"
+msgstr "Ingrese la URL externa del producto"
+
+#: include/wcatcbll_inscrpt.php:50
+msgid "Open link In New Tab"
+msgstr "Abrir enlace en una nueva pestaña"
+
+#: include/wcatcbll_metabox.php:5
+msgid "Product Custom Button Settings"
+msgstr "Configuración de botones personalizados del producto"
+
+#: include/wcatcbll_metabox.php:41 include/wcatcbll_metabox.php:67
+msgid "Add New"
+msgstr "Agregar nueva"
+
+#: include/wcatcbll_metabox.php:49 include/wcatcbll_metabox.php:71
+msgid "Remove"
+msgstr "Eliminar"
+
+#: include/wcatcbll_settings.php:56
+msgid "You do not have sufficient permissions to access this page"
+msgstr "No tienes permisos suficientes para acceder a esta página"
+
+#: include/wcatcbll_shortcode.php:290
+msgid "Please Write Us PID Perameter In Shortcode"
+msgstr "Escríbanos el parámetro PID en código corto"
+
+#: include/wcatcbll_widget.php:22
+msgid "Wcatcbll Product show"
+msgstr "Demostración del producto Wcatcbll"
+
+#: include/wcatcbll_widget.php:234
+msgid "New title"
+msgstr "Nuevo título"
+
+#: include/wcatcbll_widget.php:247
+msgid "Number of products to show"
+msgstr "Número de productos para mostrar"
+
+#~ msgid "Click Here"
+#~ msgstr "Haga clic aquí"
+
+#~ msgid "Support"
+#~ msgstr "Apoyo"
+
+#~ msgid "I Would Like To Review This Plugin"
+#~ msgstr "Me gustaría revisar este complemento"
+
+#~ msgid "I Have Ideas To Improve This Plugin"
+#~ msgstr "Tengo ideas para mejorar este complemento"
+
+#~ msgid "I Need Help With This Plugin"
+#~ msgstr "Necesito ayuda con este complemento"
+
+#~ msgid "Enter Your Email Address"
+#~ msgstr "Ingrese su dirección de correo electrónico"
+
+#~ msgid "Leave Plugin Developers Any Feedback Here"
+#~ msgstr "Deje sus comentarios a los desarrolladores de complementos aquí"
+
+#~ msgid ""
+#~ "I Agree That By Clicking The Send Button Below My Email Address And "
+#~ "Comments Will Be Send To A SERV Mask Server"
+#~ msgstr ""
+#~ "Acepto que al hacer clic en el botón Enviar debajo de mi dirección de "
+#~ "correo electrónico, los comentarios se enviarán a un servidor ServMask"
+
+#~ msgid "Send"
+#~ msgstr "Enviar"
+
+#~ msgid "Cancel"
+#~ msgstr "Cancelar"
+
+#~ msgid "Watch Plugin Video"
+#~ msgstr "Ver video del complemento"
+
+#~ msgid "Please Review"
+#~ msgstr "Por favor revise"
+
+#~ msgid "SUBSCRIBE"
+#~ msgstr "SUSCRIBIR"
+
+#~ msgid "Try Our Optimization Service"
+#~ msgstr "Pruebe nuestro servicio de optimización"
+
+#~ msgid "Contact Us for Better Google PageSpeed Optimization Results!"
+#~ msgstr ""
+#~ "Comuníquese con nosotros para obtener mejores resultados de optimización "
+#~ "de PageSpeed ​​de Google."
+
+#~ msgid "Demo Button's"
+#~ msgstr "Botón de demostración"
+
+#~ msgid "custom button position"
+#~ msgstr "posición del botón personalizado"
+
+#~ msgid "Button padding"
+#~ msgstr "Relleno de botones"
+
+#~ msgid "Button margin"
+#~ msgstr "Margen del botón"
+
+#~ msgid "Url"
+#~ msgstr "Url"
+
+#~ msgid ""
+#~ "Please add review ,subscribe our youtube channel and get pro feature "
+#~ "plugin"
+#~ msgstr ""
+#~ "Agregue una reseña, suscríbase a nuestro canal de youtube y obtenga el "
+#~ "complemento de funciones profesionales"
+
+#~ msgid "General"
+#~ msgstr "General"
